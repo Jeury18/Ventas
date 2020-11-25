@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Content\img\**" />
+    <Content Remove="Content\img\**" />
+    <EmbeddedResource Remove="Content\img\**" />
+    <None Remove="Content\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\html\almacen.html" />
+    <Content Remove="wwwroot\html\detalledeventas.html" />
+    <Content Remove="wwwroot\html\index.html" />
+    <Content Remove="wwwroot\html\login - Copia.html" />
+    <Content Remove="wwwroot\html\login.html" />
+    <Content Remove="wwwroot\html\producto.html" />
+    <Content Remove="wwwroot\html\registrarse.html" />
+    <Content Remove="wwwroot\html\reportes.html" />
+    <Content Remove="wwwroot\html\usuarios.html" />
+    <Content Remove="wwwroot\html\ventas.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\html\almacen.html" />
+    <None Include="wwwroot\html\detalledeventas.html" />
+    <None Include="wwwroot\html\index.html" />
+    <None Include="wwwroot\html\login - Copia.html" />
+    <None Include="wwwroot\html\login.html" />
+    <None Include="wwwroot\html\producto.html" />
+    <None Include="wwwroot\html\registrarse.html" />
+    <None Include="wwwroot\html\reportes.html" />
+    <None Include="wwwroot\html\usuarios.html" />
+    <None Include="wwwroot\html\ventas.html" />
+  </ItemGroup>
+
+</Project>
